@@ -33,5 +33,5 @@ body {
 
 .hovLink:hover {
     color: #c6a862;
-    scale: calc(1.1)
+    scale: calc(1.2);
 }
