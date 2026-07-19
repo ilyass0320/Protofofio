@@ -1,4 +1,5 @@
 import { motion, type Variants } from "framer-motion";
+
 const About = () => {
   const aboutSkills = [
     "Problem Solving",
@@ -34,7 +35,7 @@ const card: Variants = {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* About */}
         <div>
-         <motion.h1
+        <motion.h1
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.6 }}
@@ -43,7 +44,7 @@ const card: Variants = {
       >
             About Me
           </motion.h1>
-
+          <h2 className="font-extrabold text-xl mb-2 text-amber-100">Passionate about creating web applications and interfaces.</h2>
           <div className="space-y-5 text-gray-300 leading-8">
             <p>
               I have a Bachelor’s Degree in Computer Engineering and Software
@@ -70,7 +71,7 @@ const card: Variants = {
           </div>
         </div>
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mt-20">
+          <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mt-40">
             {aboutSkills.map((skill, index) => (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -97,7 +98,7 @@ const card: Variants = {
       >
         Technologies
       </motion.h1>
-
+      <h2 className="font-extrabold text-xl mb-4 text-amber-100">A focused toolkit I'm using to build modern web applications.</h2>
       <section>
         <motion.div
           variants={container}
