@@ -3,7 +3,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Vehicle Services Platform and sell Acessories",
-      image: "public/projet1.png",
+      image: "/projet1.png",
       description: "This is a web platform that brings together various motoring services within a single interface, designed to ensure a simple, fast and secure user experience. It enables users to buy or hire vehicles, purchase motoring accessories, and keep up to date with the latest industry news.",
       work:"undivided",
       technologies: ["React", "TypeScript", "Tailwind CSS","Spring Boot","MySQL", "GitHub","Spring Security","Spring Data JPA"],
@@ -11,7 +11,7 @@ export default function Projects() {
     },
     {
       title: "To-Do List ",
-      image: "public/projet3.png",
+      image: "/projet3.png",
       description: "A simple to-do-list",
       work:"undivided",
       technologies: ["HTML", "JavaScript", "Css"],
@@ -19,7 +19,7 @@ export default function Projects() {
     },
     {
       title: "Atria Fashion",
-      image: "public/projet2.png",
+      image: "/projet2.png",
       description: "An online marketplace for selling clothing in various categories for men and women",
       work:"Team",
       technologies: ["HTML", "JavaScript", "Css","PHP",],

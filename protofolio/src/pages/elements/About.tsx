@@ -8,10 +8,10 @@ const About = () => {
     "Communication Skills",
   ];
   const technologies = [
-    ["public/tailwindcss.png","TailwindCss","Utility-first CSS framework, Rapid UI development, Responsive design utilities"],
-    ["public/react.png", "React", "Component-based architecture, Virtual DOM for high performance, Ideal for Single Page Applications (SPAs)"],
-    ["public/springboot.png", "Spring boot", "Rapid application development, Auto-configuration, RESTful API development, Spring Security integration, Database integration with Spring Data JPA"],
-    ["public/github.png", "GitHub", "Version control using Git, Remote code repository hosting, Team collaboration,Branching and merging, Issue and project management"],
+    ["/tailwindcss.png","TailwindCss","Utility-first CSS framework, Rapid UI development, Responsive design utilities"],
+    ["/react.png", "React", "Component-based architecture, Virtual DOM for high performance, Ideal for Single Page Applications (SPAs)"],
+    ["/springboot.png", "Spring boot", "Rapid application development, Auto-configuration, RESTful API development, Spring Security integration, Database integration with Spring Data JPA"],
+    ["/github.png", "GitHub", "Version control using Git, Remote code repository hosting, Team collaboration,Branching and merging, Issue and project management"],
   ]
   const container: Variants = {
   hidden: { opacity: 0 },
