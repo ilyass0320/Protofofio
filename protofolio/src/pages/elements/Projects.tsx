@@ -35,11 +35,11 @@ export default function Projects() {
   const Certificats=[
     {
       titre:"Certificate Of Appreciation",
-      image:"public/CertificateOrganisateur.png"
+      image:"/CertificateOrganisateur.png"
     },
     {
       titre:"Certificate Of Participation",
-      image:"public/CertificateParticipation.png"
+      image:"/CertificateParticipation.png"
   }];
   const container: Variants = {
   hidden: { opacity: 0 },
