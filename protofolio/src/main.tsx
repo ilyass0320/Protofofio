@@ -9,9 +9,11 @@ import Projects from './pages/elements/Projects'
 import Contact from './pages/elements/Contact'
 import Footer from './pages/NavBar/Footer.tsx';
 import { Starfield } from './pages/NavBar/StarFeild';
+import { Analytics } from '@vercel/analytics/react'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <Analytics/>
     <BrowserRouter>
       <Nav/>
       <Starfield/>
