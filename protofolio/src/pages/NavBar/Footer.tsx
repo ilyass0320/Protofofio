@@ -1,9 +1,8 @@
 import { motion, type Variants } from "framer-motion"
 import type { IconType } from "react-icons"
 import { FaGithub } from "react-icons/fa"
-import { FaLinkedin } from "react-icons/fa6"
+import { FaLinkedin , FaArrowUp} from "react-icons/fa6"
 import { MdEmail } from "react-icons/md"
-import { FaArrowUp } from "react-icons/fa6"
 
 type SocialLink = {
   icon: IconType
