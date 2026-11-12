@@ -25,9 +25,9 @@ const item: Variants = {
           <motion.h1 variants={item} className="mb-3 text-lg font-medium text-primary text-amber-200">Hello, my name is</motion.h1>
           <motion.h1 variants={item} className="text-4xl font-extrabold tracking-tight text-foreground md:text-6xl">ACHIBANI Ilyass</motion.h1>
           <motion.h1 variants={item} className="mt-3 min-h-10 text-2xl font-bold text-foreground md:min-h-14 md:text-4xl bg-linear-to-r from-amber-200 via-yellow-400 to-orange-800 bg-clip-text text-transparent">
-            <Typewriter words={["Full Stack Developer","Frontend Modern", "Problem Solver"]} />
+            <Typewriter words={["Data Analyst","Data Visualisation","Smart decision","Full Stack Developer","Frontend Modern", "Problem Solver"]} />
           </motion.h1>
-          <motion.p variants={item} className="mt-6 max-w-xl leading-relaxed text-muted-foreground">{" I'm a Full-Stack Web Developer with a Bachelor's degree in Computer Engineering and Software Development from the Faculty of Sciences of Tetouan. I enjoy building modern, responsive, and user-friendly web applications that combine clean design with efficient functionality. My expertise includes HTML, CSS, Tailwind CSS, React, React Router and Spring Boot. Through academic and personal projects, I've developed scalable web applications, strengthened my problem-solving skills, and gained experience in creating intuitive user experiences."}</motion.p>
+          <motion.p variants={item} className="mt-6 max-w-xl leading-relaxed text-muted-foreground">I'm currently pursuing a Master's Degree in Big Data and Intelligent Systems at the Faculty of Sciences Dhar El Mahraz, Sidi Mohamed Ben Abdellah University in Fez. I am passionate about Data Science, Artificial Intelligence, and emerging technologies, with a strong interest in data analysis, machine learning, and intelligent systems. I enjoy exploring innovative technologies, solving complex problems, and transforming data into meaningful insights to develop intelligent solutions for real-world challenges. <br/>Alongside my interest in data and AI, I also have a background in Web Development, particularly in building modern, responsive, and user-friendly web applications. I enjoy combining technical skills, creativity, and problem-solving to create efficient digital solutions.</motion.p>
           <motion.div variants={item} className="mt-8 flex flex-wrap gap-4">
           <motion.a
             href="projects"
@@ -67,7 +67,7 @@ const item: Variants = {
           >
             <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-primary/20" />
             <img
-              src="./image-protof-AIlya.png"
+              src="./new_image_presentative.jpeg"
               alt="Portrait-of-ACHIBANI-Ilyass"
               width={420}
               height={520}

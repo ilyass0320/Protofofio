@@ -40,7 +40,12 @@ export default function Projects() {
     {
       titre:"Certificate Of Participation",
       image:"/CertificateParticipation.png"
-  }];
+  },{
+    titre:"Certificate Of Artificial Intelligence and Its Impact on Ecosystems",
+    image:"Cerficate_Formation_IA_Ecosystems.jpeg"
+
+  }
+];
   const container: Variants = {
   hidden: { opacity: 0 },
   show: {

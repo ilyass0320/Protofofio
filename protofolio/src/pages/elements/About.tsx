@@ -6,12 +6,17 @@ const About = () => {
     "Building Projects",
     "Learning New Technologies",
     "Communication Skills",
+    "Data Analysis & Visualization",
+    "Machine Learning & Deep Learning",
+    "Artificial Intelligence",
+    "Smart Decision Making"
   ];
   const technologies = [
     ["/tailwindCss.png","TailwindCss","Utility-first CSS framework, Rapid UI development, Responsive design utilities"],
     ["/react.png", "React", "Component-based architecture, Virtual DOM for high performance, Ideal for Single Page Applications (SPAs)"],
     ["/SpringBoot.png", "Spring boot", "Rapid application development, Auto-configuration, RESTful API development, Spring Security integration, Database integration with Spring Data JPA"],
     ["/GitHub.png", "GitHub", "Version control using Git, Remote code repository hosting, Team collaboration,Branching and merging, Issue and project management"],
+    ["/Python.png","Python","Programming and Algorithm Development, Data Analysis and Manipulation, Data Visualization for decision, Predictive Modeling, Data Cleaning and Processing, Artificial Intelligence",]
   ]
   const container: Variants = {
   hidden: { opacity: 0 },
@@ -47,7 +52,10 @@ const card: Variants = {
           <h2 className="font-extrabold text-xl mb-2 text-amber-100">Passionate about creating web applications and interfaces.</h2>
           <div className="space-y-5 text-gray-300 leading-8">
             <p>
-              I have a Bachelor’s Degree in Computer Engineering and Software
+              I am currently pursuing a Master's Degree in Big Data and Intelligent
+              Systems at the Faculty of Sciences Dhar El Mahraz (FSDM),
+              Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /> 
+              I hold a Bachelor’s Degree in Computer Engineering and Software
               Development from the Faculty of Sciences in Tetouan. I'm
               passionate about web development and modern front-end
               technologies, with a strong foundation in creating innovative
@@ -55,18 +63,23 @@ const card: Variants = {
             </p>
 
             <p>
-              Throughout my academic journey, I've strengthened my expertise in
-              HTML, CSS, Tailwind CSS, PHP, React, and React Router. I've
-              successfully delivered projects that combine algorithmic logic
-              with dynamic user interfaces, demonstrating both technical and
-              creative problem-solving skills.
-            </p>
-
-            <p>
-              As a self-motivated developer who enjoys learning new
-              technologies, I'm seeking a front-end internship where I can
-              contribute to innovative projects while continuing to grow
-              professionally.
+              Driven by curiosity and a passion for technology,
+              I am continuously exploring the fields of Artificial Intelligence, 
+              Data Science, and Big Data.<br/>I enjoy working with data, 
+              discovering emerging technologies, and building innovative 
+              solutions that combine creativity with technical expertise.<br/>
+              Throughout my academic journey, I have developed a solid foundation in software development,
+              programming, and database management, while strengthening my skills in **HTML, CSS,
+              Tailwind CSS, PHP, React, and React Router**. Through various academic and personal projects, 
+              I have successfully built dynamic and user-friendly web applications, 
+              combining algorithmic logic with modern interfaces and demonstrating my ability to solve 
+              technical challenges creatively.
+              <br />
+              <p>
+                Currently pursuing a Master's Degree in Big Data and Intelligent Systems,
+                I am eager to expand my expertise and explore the intersection of web development, 
+                data science, and artificial intelligence.
+              </p>
             </p>
           </div>
         </div>
